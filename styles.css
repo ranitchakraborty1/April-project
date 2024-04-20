@@ -168,4 +168,40 @@
   input:target {
     outline: none;
   }
+  #start-up-table {
+    width: 100vw;
+    padding: 2vh 4vw;
+  }
+  #table-dtls {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #table-dtls th,
+  #table-dtls td {
+    padding: 8px;
+    font-size: 1.2rem;
+    color: #fcaf02;
+  }
+  
+  #table-dtls thead {
+    background-color: #333;
+  }
+  
+  #table-dtls th {
+    color: white;
+  }
+  
+  #table-dtls tbody td {
+    font-size: 1.2rem;
+    border: none;
+  }
+  
+  #table-dtls tfoot {
+    background-color: #fcaf02;
+  }
+  
+  #table-dtls tfoot td {
+    color: black; /* Set text color for footer */
+  }
   
